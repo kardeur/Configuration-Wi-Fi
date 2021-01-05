@@ -17,7 +17,7 @@ html {
   /* 2 */
   -webkit-text-size-adjust: 100%;
   /* 3 */
-  background: #fff;
+  background: #F8A73D;
   color: #666;
 }
 /*
@@ -388,7 +388,7 @@ pre {
   padding: 10px;
   border: 1px solid #e5e5e5;
   border-radius: 3px;
-  background: #fff;
+  background: #F8A73D;
 }
 pre code {
   font-family: Consolas, monaco, monospace;
