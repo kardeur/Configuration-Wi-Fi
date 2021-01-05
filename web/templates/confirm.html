@@ -1,38 +1,24 @@
 <!DOCTYPE html>
-<html lang="en" class="uk-height-1-1">
+<html lang="fr" class="uk-height-1-1">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Comitup</title>
+    <title>Configuration Wi-Fi Octavio</title>
     <link rel="icon" href="img/favicon.ico">
     <!-- CSS FILES -->
     <link rel="stylesheet" type="text/css" href="css/uikit.css">
 </head>
 <body class="uk-height-1-1">
 <div class="uk-flex uk-flex-center uk-flex-middle">
-    <div class="uk-position-bottom-center uk-position-small">
-        <span class="uk-text-small uk-text-muted">Comitup - Built with <a href="https://github.com/davesteele/comitup" title="Comitup" target="_blank" data-uk-tooltip>ComitUp</a></span>
-    </div>
     <div class="uk-width-large uk-padding-small">
         <div class="uk-width-1-1 uk-text-center">
-            <span class="" uk-icon="icon: world; ratio: 5"></span>
-            <p class="uk-text-large">Connect to Wifi</p>
+            <p class="uk-text-large">Connexion au réseau Wi-Fi</p>
         </div>
 
         <div class="uk-margin">
             <div class="uk-width-1-1">
                 <p>
-                    Press the Connect button to connect this device to {{ ssid }}. <br><br>
-
-                    {% if mode == 'single' %}
-                    This will terminate the current hotspot. Connect to {{ ssid }} for access.<br><br>
-
-                    If the connection fails, this hotspot will be re-created.<br><br>
-                    {% else %}
-                    The hotspot will remain, but this web service will be terminated.<br><br>
-
-                    If the connection fails, the web service will be restored.<br><br>
-                    {% endif %}
+                    Entrez le mot de passe requis pour vous connecter à {{ ssid }} <br><br>
                 </p>
             </div>
         </div>
@@ -40,10 +26,10 @@
             <div class="uk-grid uk-grid-small">
                 <div class="uk-width-2-3">
                     <input type="hidden" name="ssid" value="{{ ssid_encoded }}">
-                    <input class="uk-input" placeholder="Password (if required)" type="password" name="password">
+                    <input class="uk-input" placeholder="Mot de passe (si nécessaire)" type="password" name="password">
                 </div>
                 <div class="uk-width-1-3">
-                    <button type="submit" value="Connect" class="uk-button uk-button-primary uk-width-expand">Connect</button>
+                    <button type="submit" value="Connect" class="uk-button uk-button-primary uk-width-expand">Valider</button>
                 </div>
             </div>
         </form>
@@ -52,4 +38,4 @@
 
 <!-- JS FILES -->
 <script src="js/uikit.js"></script>
-<script src="js/uikit-icons.js"></script>
+<script src="js/uikit-icons.min.js"></script>
