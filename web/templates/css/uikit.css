@@ -12,13 +12,13 @@ html {
   /* 1 */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
-  font-weight: normal;
+  font-weight: medium;
   line-height: 1.5;
   /* 2 */
   -webkit-text-size-adjust: 100%;
   /* 3 */
-  background: #fff;
-  color: #666;
+  background: #F8A73D;
+  color: #ffffff;
 }
 /*
  * Remove the margin in all browsers.
@@ -46,13 +46,13 @@ a:hover {
  */
 a,
 .uk-link {
-  color: #1e87f0;
+  color: #fff;
   text-decoration: none;
   cursor: pointer;
 }
 a:hover,
 .uk-link:hover {
-  color: #0f6ecd;
+  color: #d4d4d4;
   text-decoration: underline;
 }
 /* Text-level semantics
@@ -91,7 +91,7 @@ strong {
   color: #f0506e;
   white-space: nowrap;
   padding: 2px 6px;
-  background: #f8f8f8;
+  background: #000000;
 }
 /*
  * Emphasize
@@ -1841,7 +1841,6 @@ select.uk-form-width-xsmall {
   text-align: center;
   /* 10 */
   text-decoration: none;
-  text-transform: uppercase;
   transition: 0.1s ease-in-out;
   transition-property: color, background-color, border-color;
 }
@@ -1893,20 +1892,20 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-button-primary {
-  background-color: #1e87f0;
-  color: #fff;
+  background-color: #fff;
+  color: #000000;
   border: 1px solid transparent;
 }
 /* Hover + Focus */
 .uk-button-primary:hover,
 .uk-button-primary:focus {
-  background-color: #0f7ae5;
-  color: #fff;
+  background-color: #d4d4d4;
+  color: #000000;
 }
 /* OnClick + Active */
 .uk-button-primary:active,
 .uk-button-primary.uk-active {
-  background-color: #0e6dcd;
+  background-color: #9c9c9c;
   color: #fff;
 }
 /*
