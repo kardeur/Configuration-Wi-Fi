@@ -120,7 +120,7 @@ def create_app(log):
 
     @app.route("/<path:path>")
     def catch_all(path):
-        return redirect("http://10.41.0.1/", code=302)
+        return redirect("http://10.0.0.1/", code=302)
 
     @app.errorhandler(500)
     def internal_error(error):
