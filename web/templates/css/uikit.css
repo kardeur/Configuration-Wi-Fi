@@ -1893,14 +1893,14 @@ select.uk-form-width-xsmall {
  */
 .uk-button-primary {
   background-color: #fff;
-  color: #000000;
+  color: #F8A73D;
   border: 1px solid transparent;
 }
 /* Hover + Focus */
 .uk-button-primary:hover,
 .uk-button-primary:focus {
   background-color: #d4d4d4;
-  color: #000000;
+  color: #F8A73D;
 }
 /* OnClick + Active */
 .uk-button-primary:active,
